@@ -1,0 +1,8 @@
+
+Todo se instala con doble click e infinitos "next", "ok" y "accept" en el siguiente orden:
+
+1.- devcpp-4.9.9.2_setup.exe
+2.- glut.3.7.6+.DevPak
+3.- glui.2.36-2.DevPak
+
+Ahora sí pueden abrir el proyecto UTM_Mec4bars.dev y compmilarlo sin problemas.

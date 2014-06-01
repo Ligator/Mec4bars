@@ -17,11 +17,13 @@ El programa no necesita instalación, solo ejecuta el "UTM_Mec4bars.exe" de la c
 
 El programa corre sobre Windows. Está escrito en DevC++ con las bibliotecas OpenGLUT y OpenGLUI. Se deben instalar en el siguiente orden:
 
-* Instalar el IDE [DecC++ 4.9.9.2](http://www.bloodshed.net/devcpp.html).
-* Instalar el DevPak [GLUT](http://www.nigels.com/glt/devpak/).
-* Instalar el DevPak [GLUI 2.36](http://www.nigels.com/glt/devpak/)
-* Abrir el projecto, es el archivo "UTM_Mec4bars.dev".
+* Instalar el IDE [DevC++ 4.9.9.2](http://www.bloodshed.net/devcpp.html).
+* Instalar el DevPak GLUT de su [página](http://www.nigels.com/glt/devpak/) o de la carpeta "DevPak".
+* Instalar el DevPak GLUI 2.36 de su [página](http://www.nigels.com/glt/devpak/) o de la carpeta "DevPak".
+* Abrir el projecto, es el archivo "UTM_Mec4bars.dev" de la carpeta "Scr".
 * Compilar y correr.
+
+Con el programa puedes abrir los archivos de la carpeta "Examples", son ejemplos de mecanismos.
 
 ## Uso
 
