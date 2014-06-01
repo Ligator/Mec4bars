@@ -1,0 +1,41 @@
+// Example 3.
+//
+// This example shows three four-bar mechanisms with diferent properties.
+//
+// Enjoy it. ;)
+//
+
+// Propiedades del mecanismo
+//		Mecanismo número 0
+// Bars length
+//		L1	Longitud de la barra 1
+//		L2	Longitud de la barra 2
+//		L3	Longitud de la barra 3
+//		L4	Longitud de la barra 4
+// Extra bar features 
+//		LE	Longitud de la extensión de la barra 2
+//		angE	Ángulo de la barra LE son respecto a la barra 2
+// Escene features
+//		x	Posición inicial en x de la barra 1
+//		y	Posición inicial en y de la barra 1
+//		z	Posición inicial en z de la barra 1
+//		angM	Ángulo de inclinación de la barra 4
+//		ang1_ph	Ángulo de fase de la barra 1
+
+* ////////////////////////////////////////
+0
+0.5 0.75 1.0 1.0
+0.5 0.0
+0.0 0.0 0.0 0.0 0.0
+
+* //////////////////////////////////////////
+1
+0.5 0.9 0.7 0.9
+0.5 0.0
+0.0 0.0 -0.7 0.0 90.0
+
+* ////////////////////////////////////////
+3
+0.5 0.75 1.0 1.0 
+0.8 45.0
+0.3 0.2 -1.4 30.0 150.0
