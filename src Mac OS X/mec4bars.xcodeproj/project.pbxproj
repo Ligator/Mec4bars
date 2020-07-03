@@ -10,6 +10,7 @@
 		81051E1A24AF72AE00EC7FBE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81051E1924AF72AE00EC7FBE /* main.cpp */; };
 		816BAFD224AF7F9A00AABE6A /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816BAFD124AF7F9A00AABE6A /* OpenGL.framework */; };
 		816BAFD424AF7FA100AABE6A /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816BAFD324AF7FA100AABE6A /* GLUT.framework */; };
+		816BAFD624AF808200AABE6A /* libglui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 816BAFD524AF808200AABE6A /* libglui.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		81051E1924AF72AE00EC7FBE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		816BAFD124AF7F9A00AABE6A /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		816BAFD324AF7FA100AABE6A /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		816BAFD524AF808200AABE6A /* libglui.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglui.a; path = ../../../../../../usr/local/Cellar/glui/2.37/lib/libglui.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				816BAFD624AF808200AABE6A /* libglui.a in Frameworks */,
 				816BAFD424AF7FA100AABE6A /* GLUT.framework in Frameworks */,
 				816BAFD224AF7F9A00AABE6A /* OpenGL.framework in Frameworks */,
 			);
@@ -72,6 +75,7 @@
 		816BAFD024AF7F9A00AABE6A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				816BAFD524AF808200AABE6A /* libglui.a */,
 				816BAFD324AF7FA100AABE6A /* GLUT.framework */,
 				816BAFD124AF7F9A00AABE6A /* OpenGL.framework */,
 			);
@@ -255,6 +259,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glui/2.37/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -263,6 +272,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glui/2.37/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
